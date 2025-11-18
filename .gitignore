@@ -1,0 +1,47 @@
+# --- Rust / Cargo ---
+target/
+Cargo.lock
+
+# Ignore backup files
+*.rs.bk
+
+# --- IDE / Editor settings ---
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains / IntelliJ / CLion
+.idea/
+
+# Vim / Neovim swap files
+*.swp
+*.swo
+
+# Emacs
+*~
+
+# --- OS Specific ---
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# --- Logs / temp files ---
+*.log
+*.tmp
+
+# --- Build artifacts ---
+*.exe
+*.dll
+*.pdb
+*.obj
+*.o
+
+# --- Audio project extras ---
+# Ignore large local audio samples not committed
+# sounds/*.wav
+# !sounds/.keep
+
+# If you want to track demo samples, comment out above lines
